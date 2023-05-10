@@ -412,6 +412,32 @@ body{
     .section .testimonials h4{
         font-size: 18px;
     }
+    .section .testimonials .play i{
+        top: 65px;
+    }
+    .section .request .play i {
+        top: 100px;
+        left: 45%;
+    }
+}
+@media screen and (max-width: 991px){
+    .section .top .form{
+        margin-top: 50px;
+    }
+    .section .testimonials {
+        padding: 50px 0;
+    }
+    .section .testimonials .play i, .section .request .play i {       
+        top: 160px;
+        font-size: 70px;
+        left: 50%;        
+    }
+    .section .training,.section .excel,.section .testimonials,.section .news,.section .request{
+        text-align: center;
+    }
+    .section .news h2,.section .request h4{
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 767px){
     .section .companies .panel{
@@ -425,18 +451,111 @@ body{
     .section .training {
         padding: 250px 0 50px;
     }
+    .section .testimonials .play i, .section .request .play i {
+        top: 110px;
+        font-size: 70px;
+        left: 45%;
+    }
+    .section .testimonials h4 {
+        font-size: 22px;
+    }
+    .section .testimonials .details h5{
+        font-size: 16px;
+    }
     
 }
 @media screen and (max-width: 575px){
+    .section .top{
+        padding: 50px 0;
+    }
+    .section .top .logo a h1{
+        font-size: 30px;
+    }
+    .section .top h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .section .top p{
+        text-align: center;
+        font-size: 18px;
+    }
     .section .top .form{
         width: 90%;
-        margin: 0 auto;
+        margin: 50px auto;
+    }    
+    .section .training{
+        padding: 180px 0 50px;
     }
-    .section .training,.section .excel,.section .testimonials,.section .news,.section .request{
-        text-align: center;
+    .section .training h2,.section .excel h2,.section .testimonials h2,.section .news h2,.section .request h4{
+        font-size: 30px;
     }
     .section .training .panel .title{
         justify-content: center;
     }
-    
+    .section .top ul{
+        justify-content: center;
+    }
+    .section .top ul li{
+        padding: 0 20px;
+    }
+    .section .top ul li::before{
+        left: -10px;
+    }
+    .section .top .logo a.contact{
+        font-size: 16px;
+    }
+    .section .top ul li h5{
+        font-size: 15px;
+    }
+    .section .top ul li p {
+        font-size: 12px;
+        text-align: left;
+    }
+    .section .top .form h2{
+        font-size: 14px;
+    }
+    .section .top .form form h3{
+        font-size: 17px;
+    }
+    .section .top .form form label{
+        font-size: 13px;
+    }
+    .checkmark{
+        width: 16px;
+        height: 16px;
+    }
+    .section .top .form form button{
+        font-size: 16px;
+    }
+    .section .top .form form label .checkmark:after{
+        left: 3px;
+        top: -2px;
+    }
+    .section .top .form::after{
+        border-top: 15px solid #FFAF16;
+        border-right: 15px solid #FFAF16;
+        top: -15px;
+        right: -15px;
+    }
+    .section .request a{
+        padding: 7px 5px;
+    }
+}
+@media screen and (max-width: 500px){
+    .section .testimonials .play i, .section .request .play i{
+        top: 90px;
+    }
+}
+@media screen and (max-width: 450px){
+    .section .testimonials .play i, .section .request .play i{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width: 400px){
+    .section .testimonials .play i, .section .request .play i{
+        top: 75px;
+    }
+    .section .request a{
+        font-size: 18px;
+    }
 }
