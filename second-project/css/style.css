@@ -238,3 +238,71 @@ body{
     font-size: 14px;
     margin: 0;
 }
+.section .excel{
+    background-color: #270C19;
+    padding: 50px 0;
+    color: #fff;
+}
+.section .excel h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.section .excel p{
+    font-size: 14px;
+    margin: 0;
+}
+.section .excel a{
+    background-color: #FFB117;
+    padding: 7px 45px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: inline-block;
+}
+.section .testimonials{
+    padding: 150px 0 50px;
+}
+.section .testimonials h2{
+    font-size: 38px;
+    font-weight: 400;
+}
+.section .testimonials h2 strong{
+    font-weight: 600;
+}
+.section .testimonials p{
+    font-size: 14px;
+}
+.section .testimonials h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.section .testimonials img{
+    width: 100%;
+}
+.section .testimonials .play{
+    position: relative;
+}
+.section .testimonials .play i{
+    position: absolute;
+    top: 80px;
+    font-size: 50px;
+    left: 40%;
+    color: #fff;
+}
+.section .testimonials .details{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.section .testimonials .details h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+.section .testimonials .details h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #52525B;
+}
