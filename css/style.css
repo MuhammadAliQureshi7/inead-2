@@ -313,6 +313,22 @@ body{
     .section .form .nav-pills .nav-link {
         margin: 0 5px;
     }
+    .footer .footer-bottom{
+        text-align: center;
+    }
+    .footer .footer-bottom .links ul li{
+        display: block;
+        position: relative;
+    }
+    .footer .footer-bottom .links ul li::before{
+        content: "";
+        width: 5px;
+        height: 5px;
+        background-color: #000;
+        border-radius: 100%;
+        position: absolute;
+        top: 2px;
+    }
 }
 @media screen and (max-width: 575px){
     .header .navbar>.container-fluid{
