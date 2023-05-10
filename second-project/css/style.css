@@ -336,13 +336,3 @@ body{
         padding: 0.5rem;
     }
 }
-@media screen and (max-width: 410px){
-    .section .form .nav-pills .nav-link {
-        margin: 0 2px;
-        font-size: 12px;
-        padding: 0.2rem;
-    }
-    .section .form h1{
-        font-size: 35px;
-    }
-}
