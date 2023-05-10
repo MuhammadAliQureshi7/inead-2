@@ -317,17 +317,20 @@ body{
         text-align: center;
     }
     .footer .footer-bottom .links ul li{
-        display: block;
+        display: block;       
+    }
+    .footer .footer-bottom .links ul li a{
         position: relative;
     }
-    .footer .footer-bottom .links ul li::before{
+    .footer .footer-bottom .links ul li a::before {
         content: "";
         width: 5px;
         height: 5px;
         background-color: #000;
         border-radius: 100%;
         position: absolute;
-        top: 2px;
+        top: 7px;
+        left: -10px;
     }
 }
 @media screen and (max-width: 575px){
