@@ -1,6 +1,7 @@
 body{
     font-family: 'Archivo', sans-serif;
     background-color: #F5F5F5;
+    color: #000;
 }
 .clearfix{
     float: none;
@@ -169,4 +170,71 @@ body{
     font-size: 20px;
     font-weight: 600;
     padding: 5px;
+}
+.section .companies .col-xl-12{
+    position: relative;
+}
+.section .companies .panel{
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+.section .companies .panel img{
+    filter: grayscale(1);
+    height: auto;
+}
+.section .training{
+    padding: 200px 0 50px;
+}
+.section .training h2{
+    font-size: 38px;
+    font-weight: 400;
+    
+}
+.section .training h2 strong{
+    font-weight: 700;
+}
+.section .training p{
+    font-size: 14px;
+}
+.section .training .panel{
+    background-color: #fff;
+    box-shadow: 0px 4px 170px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 45%;
+}
+.section .training .panel .title{
+    display: flex;
+    align-items: center;
+    padding: 0 15px 20px;
+}
+.section .training .panel .title i{
+    font-size: 25px;
+}
+.section .training .panel.trainer .title i{
+    color: #F16F69;
+}
+.section .training .panel.hours .title i{
+    color: #FFB117;
+}
+.section .training .panel.certify .title i{
+    color: #661F40;
+}
+.section .training .panel.fund .title i{
+    color: #1AB3F6;
+}
+.section .training .panel .title h4{
+    font-size: 17px;
+    margin: 0;
+    margin-left: 10px;   
+}
+.section .training .panel p{
+    font-size: 14px;
+    margin: 0;
 }
